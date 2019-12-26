@@ -1,0 +1,17 @@
+---
+title: Archive
+---
+
+<nav class="archive">
+  {% for post in site.posts %}
+  <a href="{{ post.url }}">
+    <div  class="archive-art">
+      <img src="/assets/art/{{ post.art }}">
+    </div>
+    <div>
+      <p class="archive-title"> {{ post.title }} </p>
+      <p class="archive-date"> {{ post.date | date: "%Y | %B %-d | %A"}} </p>
+    </div>
+  </a>
+  {% endfor %}
+</nav>

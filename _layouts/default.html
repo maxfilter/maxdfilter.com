@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Max Filter">
+
+    <!-- Title -->
+    <title> Max Filter {% if page.title %} | {{ page.title }} {% endif %} </title>
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+
+  <body>
+    <main>
+      {% include header.html %}
+
+      {% if page.art %}
+      <div class="text-art">
+        <img src="/assets/art/{{ page.art }}">
+      </div>
+      {% endif %}
+
+      <div class="text">
+        <h1 class="text-title"> {{ page.title }} </h1>
+
+        <div class="text-content">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+</html>

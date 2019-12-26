@@ -1,0 +1,46 @@
+@mixin aku-type($size : "normal")
+
+    $baseSize  : 0.6rem // Base Font Size 15/25
+    $baseRatio : $f-scale-s , 1 , $f-scale-m , $f-scale-l , $f-scale-xl , $f-scale-xxl
+
+    // Small Font Size
+    @if ($size == "small")
+
+        font-size   : $baseSize * nth($baseRatio , 1)
+        font-family : inherit
+        line-height : 1rem
+
+    // Normal Font Size
+    @if ($size == "normal")
+
+        font-size   : $baseSize * nth($baseRatio , 2)
+        font-family : inherit
+        line-height : 1rem
+
+    // Medium Font Size
+    @if ($size == "medium")
+
+        font-size   : $baseSize * nth($baseRatio , 3)
+        font-family : inherit
+        line-height : 1rem
+
+    // Large Font Size
+    @if ($size == "large")
+
+        font-size   : $baseSize * nth($baseRatio , 4)
+        font-family : inherit
+        line-height : 2rem
+
+    // X-Large Font Size
+    @if ($size == "xlarge")
+
+        font-size   : $baseSize * nth($baseRatio , 5)
+        font-family : inherit
+        line-height : 2rem
+
+    // XX-Large Font Size
+    @if ($size == "xxlarge")
+
+        font-size   : $baseSize * nth($baseRatio , 6)
+        font-family : inherit
+        line-height : 2rem

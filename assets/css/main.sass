@@ -1,0 +1,204 @@
+---
+---
+@import typography/type.sass
+@import typography/settings.sass
+@import reset.sass
+@import variables.sass
+
+// General
+html, body
+    height: 100%
+    margin: 0
+    background-color: $c-bg
+
+body
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+    padding: 0 1.5rem 0
+    color: $c-text
+    margin-right: auto
+    margin-left: auto
+    max-width: $w-narrow
+    +aku-type(normal)
+
+main
+    padding-top: 4rem
+    flex: 1
+
+h1
+    +aku-type(large)
+    text-align: left
+    margin-bottom : 2rem
+    font-weight: 400
+
+h2
+    +aku-type(medium)
+    margin-bottom : 1rem
+    text-align: center
+    font-weight: 400
+
+p
+    +aku-type(normal)
+    margin-bottom: 1rem
+
+hr
+    height: 2px
+    border: none
+    margin-top: 2rem
+    margin-bottom: 2rem
+    background: $c-bg-light
+    width: $w-narrower
+
+em 
+    font-style: italic
+
+// Header
+.pg-title
+    +aku-type(xlarge)
+    text-transform: uppercase
+    letter-spacing: 0
+    text-align: center
+    font-weight: 500
+
+// Text format
+.text-art
+  margin-bottom: 2rem
+  height: 8rem
+  text-align: center
+
+  img
+      width: 100%
+      max-width: 8rem
+
+@media (min-width: 600px)
+    .text-art
+        height: 16rem
+
+        img 
+            max-width: 16rem
+
+.img-container
+    padding-top: 2rem
+    padding-bottom: 2rem
+    width: $w-narrow
+    text-align: center
+
+    img 
+        display: block
+        width: 100%
+
+.text
+    flex: 1 0 auto
+    font-weight: $f-weight-light
+
+    a
+        font-weight: $f-weight-normal
+        background-image: linear-gradient(to right, $c-highlight, $c-highlight)
+        background-repeat: no-repeat
+        background-position: 0% 100%
+        background-size: 100% 2px
+        transition: background-size 0.5s
+
+    a:hover
+        background-size: 100% 100%
+        transition: background-size 0.5s
+
+    blockquote
+        font-style: italic
+        border-left: 2px solid $c-bg-light
+        padding-left: 0.75rem
+        margin-bottom: 1rem
+
+    div
+        position: center
+
+    ol, ul, dl
+        margin-bottom: 1rem
+
+    ul
+        list-style-type: square
+        list-style-position: inside
+
+
+    @media (min-width: 600px)
+
+        blockquote
+            position: relative
+            padding-left: 0.5rem
+            left: -0.55rem
+
+        ol, ul, dl
+            list-style-position: outside
+
+
+.text-footer
+    margin-top: 2rem
+    text-align: center
+
+// Archive
+.archive
+    a
+      text-decoration: none
+      background-size: 0
+      display: flex
+      flex-direction: row
+
+    a:hover
+      background-size: 0
+
+.archive-art
+    width: 2rem
+    height: 2rem
+    min-width: 2rem
+    min-height: 2rem
+
+    margin-bottom: 1rem
+    padding-right: 0.5rem
+    img
+        max-width: 100%
+
+.archive-title
+    +aku-type(medium)
+    margin-bottom: 0
+
+.archive-date
+    +aku-type(small)
+    font-family: $f-mono
+
+@media (min-width: 400px)
+  .archive-art
+      padding-right: 1rem
+
+@media (min-width: 600px)
+  .archive-art
+      padding-right: 2rem
+      // margin-bottom: 2rem
+
+// Footer
+
+footer
+    +aku-type(normal)
+    padding-bottom: 2rem
+    margin-top: 3rem
+
+    a
+        background-image: linear-gradient($c-highlight, $c-highlight)
+        background-repeat: no-repeat
+        background-position: 0% 100%
+        background-size: 100% 2px
+        transition: background-size ease 0.5s
+
+    a:hover
+        background-size: 100% 100%
+        transition: background-size ease 0.5s
+
+    ul
+        text-align: center
+        li
+            display: inline-block
+            margin-right: 1rem
+
+        li:last-child
+            margin-right: 0rem
