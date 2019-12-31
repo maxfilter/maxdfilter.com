@@ -1,17 +1,36 @@
 ---
-title: Archive
+title: The Archive
 ---
 
 <nav class="archive">
   {% for post in site.posts %}
-  <a href="{{ post.url }}">
-    <div  class="archive-art">
-      <img src="/assets/art/{{ post.art }}">
-    </div>
-    <div>
-      <p class="archive-title"> {{ post.title }} </p>
-      <p class="archive-date"> {{ post.date | date: "%Y | %B %-d | %A"}} </p>
-    </div>
-  </a>
+    
+    {% assign nextYear = post.date | date: "%Y" %}
+    {% assign nextMonth = post.date | date: "%B" %}
+
+    {% if nextYear != currentYear %}
+      <div>
+        <p class="archive-year">{{ nextYear }}</p>
+      </div>
+      {% assign currentYear = nextYear %}
+    {% endif %}
+
+    {% if nextMonth != currentMonth %}
+      <div>
+        <p class="archive-month">{{ nextMonth }}</p>
+      </div>
+      {% assign currentMonth = nextMonth %}
+    {% endif %}
+
+    <a href="{{ post.url }}">
+
+      <div class="archive-day">
+        <p>{{ post.date | date: "%d"}}</p>
+      </div>
+
+      <div class="archive-title">
+        <p> {{ post.title }} </p>
+      </div>
+    </a>
   {% endfor %}
 </nav>

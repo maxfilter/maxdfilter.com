@@ -1,6 +1,5 @@
 ---
 title: Learning Through Discomfort
-art: aster.png
 ---
 Since high school, I have been experimenting with different learning techniques—from the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) to drawing every topic I’d learned in IB math on a single poster. What I realized during my endless pursuit of knowledge is that I learn best when my learning is paired with discomfort. 
 

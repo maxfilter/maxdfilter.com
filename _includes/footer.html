@@ -1,7 +1,26 @@
 <footer>
-  <ul>
-    <li><a href="/about">About</a></li>
-    <li><a href="/connect">Connect</a></li>
-    <li><a href="/now">Now</a></li>
-  </ul>
+
+    <hr/>
+
+    <ul>
+      <li>
+      {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+      {% else %}
+        <i class="fa fa-angle-left"></i>
+      {% endif %}
+      </li>
+
+      <li class="next">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      {% else %}
+          <i class="fa fa-angle-right"></i>
+      {% endif %}
+      </li>
+    </ul>
 </footer>

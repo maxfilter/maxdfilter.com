@@ -1,6 +1,5 @@
 ---
 title: Creating a Time Capsule
-art: time-capsule.png 
 ---
 When I was fourteen, I decided that I wanted to have my own little corner of the internet where I could post my thoughts and ideas. At the time, I didn’t care if anyone else read them, I just wanted to have a place that I could go back to whenever I wanted to read through my thoughts from a certain time. I didn’t know how to make websites and I was afraid to write because nothing I wrote seemed worthy of existing on the internet.
 

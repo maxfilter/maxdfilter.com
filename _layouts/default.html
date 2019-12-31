@@ -11,17 +11,14 @@
 
     <!-- Global Styles -->
     <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <main>
       {% include header.html %}
-
-      {% if page.art %}
-      <div class="text-art">
-        <img src="/assets/art/{{ page.art }}">
-      </div>
-      {% endif %}
 
       <div class="text">
         <h1 class="text-title"> {{ page.title }} </h1>
@@ -32,7 +29,11 @@
       </div>
     </main>
 
-    {% include footer.html %}
+    {% if page.url == "/" or page.url contains "page" %}
+      {% include footer.html %}
+    {% else %}
+      <footer></footer>
+    {% endif %}
 
   </body>
 </html>

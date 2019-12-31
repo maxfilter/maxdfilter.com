@@ -55,29 +55,45 @@ em
     font-style: italic
 
 // Header
+header
+    margin-bottom: 2rem
+
 .pg-title
-    +aku-type(xxlarge)
+    +aku-type(xlarge)
     text-transform: uppercase
     letter-spacing: 0
     text-align: center
     font-weight: 500
+    margin-bottom: 0.5rem
 
-// Text format
-.text-art
-  margin-bottom: 2rem
-  height: 8rem
-  text-align: center
+.header-nav
+    +aku-type(normal)
+    font-weight: $f-weight-normal
 
-  img
-      width: 100%
-      max-width: 8rem
 
-@media (min-width: 600px)
-    .text-art
-        height: 16rem
+    a
+        background-image: linear-gradient($c-highlight, $c-highlight)
+        background-repeat: no-repeat
+        background-position: 0% 100%
+        background-size: 100% 2px
+        transition: background-size ease 0.5s
 
-        img 
-            max-width: 16rem
+    a:hover
+        background-size: 100% 100%
+        transition: background-size ease 0.5s
+
+    ul
+        text-align: center
+        li
+            display: inline-block
+            margin-right: 1rem
+
+        li:last-child
+            margin-right: 0rem
+
+// ~ Text format --------------------------------------------------------------
+
+// Image format
 
 .img-wrapper
     padding: 1rem
@@ -157,6 +173,7 @@ em
 
 
 // Archive
+
 .archive
     a
       text-decoration: none
@@ -167,55 +184,52 @@ em
     a:hover
       background-size: 0
 
-.archive-art
-    width: 2rem
-    height: 2rem
+.archive-day
     min-width: 2rem
-    min-height: 2rem
+    width: 2rem
 
-    margin-bottom: 1rem
-    padding-right: 0.5rem
-    img
-        max-width: 100%
+    p
+        margin-bottom: 0
+        +aku-type(small)
 
 .archive-title
+    width: 100%
+    font-weight: $f-weight-light
+
+    p
+        margin-bottom: 0
+
+.archive-year
     +aku-type(medium)
-    margin-bottom: 0
+    font-weight: 400
 
-.archive-date
-    +aku-type(small)
-    font-family: $f-mono
+.archive-month
+    font-weight: 400
+    text-align: left
+    margin-top: 1rem
+    margin-bottom: 0rem
 
-@media (min-width: 400px)
-  .archive-art
-      padding-right: 1rem
 
-@media (min-width: 600px)
-  .archive-art
-      padding-right: 2rem
-      // margin-bottom: 2rem
 // Footer
 footer
-    +aku-type(normal)
+    +aku-type(large)
     padding-bottom: 2rem
-    margin-top: 3rem
+    color: hsl(0, 0, 75)
 
-    a
-        background-image: linear-gradient($c-highlight, $c-highlight)
-        background-repeat: no-repeat
-        background-position: 0% 100%
-        background-size: 100% 2px
-        transition: background-size ease 0.5s
+    a i
+        color: $c-text
+        padding: 0 5px
 
-    a:hover
-        background-size: 100% 100%
-        transition: background-size ease 0.5s
+    hr
+        margin-bottom: 0.5rem
 
     ul
         text-align: center
+
         li
             display: inline-block
-            margin-right: 1rem
+            margin-right: 85%
 
         li:last-child
             margin-right: 0rem
+
