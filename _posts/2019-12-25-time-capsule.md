@@ -36,6 +36,3 @@ I was inspired by a lot of other bloggers, and you might notice some similaritie
 - [Wait But Why](https://waitbutwhy.com){:target="_blank"}
 - [Thalida Noel](https://thalida.me){:target="_blank"}
 - [Max Heinritz](https://maxheinritz.com){:target="_blank"}
-
-## Why the Random Plants?
-I love the outdoors as much as I love technology and wanted that to be prominent on my site.
