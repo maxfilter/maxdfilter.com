@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Max Filter">
-
-    <!-- Title -->
-    <title> Max Filter  </title>
-
-    <!-- Global Styles -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-
-  <body>
-    <main>
-      <header>
-  <h1 class="pg-title"><a href="/">Max Filter</a></h1>
-
-  <nav class="header-nav">
-    <ul>
-      <li><a href="/about">about</a></li>
-      <li><a href="/connect">connect</a></li>
-      <li><a href="/archive">archive</a></li>
-    </ul>
-  </nav>
-
-</header>
-
-
-      <div class="text">
-        <h1 class="text-title">  </h1>
-
-        <div class="text-content">
-          
-
-  <h1>Memories</h1>
-
-  <p>Why do we have memories?</p>
+I"ê<p>Why do we have memories?</p>
 
 <p>Small encapsulations of moments that have occured at some point in our lives, but no ability to choose which ones we deem important enough to keep and which ones are lost forever. I wonder where in my brain these experiences are stored and what triggered the neuronal path that resulted in my remembering them.</p>
 
@@ -51,37 +9,4 @@
 <p>I also find it strange that these thoughts and experiences can‚Äôt be shared except through words, and unless we write them down all of our memories and thoughts and feelings are condemned to the same fate that we are.</p>
 
 <p>Each moment is a memory that you have collected and whether or not you are able to recall it later, it is still one of the few things taht will always remain unique to you and you alone.</p>
-
-
-
-
-        </div>
-      </div>
-    </main>
-
-    
-      <footer>
-
-    <hr/>
-
-    <ul>
-      <li>
-      
-        <i class="fa fa-angle-left"></i>
-      
-      </li>
-
-      <li class="next">
-      
-        <a href="/page2/">
-          <i class="fa fa-angle-right"></i>
-        </a>
-      
-      </li>
-    </ul>
-</footer>
-
-    
-
-  </body>
-</html>
+:ET
