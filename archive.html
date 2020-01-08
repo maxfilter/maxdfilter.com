@@ -9,11 +9,12 @@ title: The Archive
     {% assign nextMonth = post.date | date: "%B" %}
 
     {% if nextYear != currentYear %}
-      <hr/>
-
       <div>
         <p class="archive-year">{{ nextYear }}</p>
       </div>
+
+      <hr/>
+      
       {% assign currentYear = nextYear %}
     {% endif %}
 
