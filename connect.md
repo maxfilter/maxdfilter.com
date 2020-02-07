@@ -2,6 +2,10 @@
 title: Connect with me
 ---
 
-In the process of creating an email for this domain. 
+I have an account for most social media platforms, but am trying to find better alternatives
+that give me the chance to make better connections with people. For now, if you
+message me on [LinkedIn](https://www.linkedin.com/in/maxfilter/){:target="_blank"} or 
+[Instagram](https://www.instagram.com/maxfilt/){:target="_blank"}, I'll probably get 
+back to you and give you an email adress.
 
-In the meantime, you can reach out to me via [LinkedIn](https://www.linkedin.com/in/maxfilter/){:target="_blank"}!
+I'm up for a conversation about anything, and would love to hear what you have to say.
