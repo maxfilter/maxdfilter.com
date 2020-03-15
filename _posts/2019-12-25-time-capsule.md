@@ -7,19 +7,19 @@ So my website remained a seedling in my mind.
 
 Flash forward to the summer of 2018.  I had just finished my freshman year of college and decided that I wanted to major in Computer Science. I still had no idea how to make websites, but I decided that I would never learn unless I forced myself to put in the time and energy. Over the course of the summer, I worked through the W3 Schools tutorials on [HTML](https://www.w3schools.com/html/default.asp){:target="_blank"} and [CSS](https://www.w3schools.com/css/default.asp){:target="_blank"}, and by August my first website was live. I didn’t know how to create a blog, so all it had was an about section, a map of the places I’d travelled to, and some links to social media sites.
 
-<div class="img-wrapper">
+<div class="img-wrapper" style="padding: 1.5rem">
     <img src="/assets/images/time-capsule/website_v1.png" class="img" alt="Website Version 1" loading="lazy">
 </div>
 
 After wrapping up the first semester of my sophomore year, the idea of creating a blog was still in the back of my mind. I discovered Jekyll and markdown, and with that I was finally able to start a blog. It was a learning experience, but still didn’t feel like my own little corner of the internet.
 
-<div class="img-wrapper">
+<div class="img-wrapper" style="padding: 1.5rem">
     <img src="/assets/images/time-capsule/website_v2.png" class="img" alt="Website Version 2" loading="lazy">
 </div>
 
 Over spring break sophomore year, I worked on yet another iteration of my website. This one included a filter to sort posts into photography or writing types. I actually posted a few things onto it over the course of the summer, and I felt like I was getting closer to having my own blog.
 
-<div class="img-wrapper">
+<div class="img-wrapper" style="padding: 1.5rem">
     <img src="/assets/images/time-capsule/website_v3.png" class="img" alt="Website Version 3" loading="lazy">
 </div>
 

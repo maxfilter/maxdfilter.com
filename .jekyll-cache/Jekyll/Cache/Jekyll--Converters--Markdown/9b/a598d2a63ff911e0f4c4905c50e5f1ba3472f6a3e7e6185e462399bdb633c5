@@ -1,46 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Max Filter">
-
-    <!-- Title -->
-    <title> Max Filter  </title>
-
-    <!-- Global Styles -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-
-  <body>
-    <main>
-      <header>
-  <h1 class="pg-title"><a href="/">Max Filter</a></h1>
-
-  <nav class="header-nav">
-    <ul>
-      <li><a href="/about">about</a></li>
-      <li><a href="/connect">connect</a></li>
-      <li><a href="/archive">archive</a></li>
-    </ul>
-  </nav>
-
-</header>
-
-
-      <div class="text">
-        <h1 class="text-title">  </h1>
-
-        <div class="text-content">
-          
-
-  <h1>Bound by the Present</h1>
-
-  <div class="img-wrapper">
+I"C
+<div class="img-wrapper">
     <img src="/assets/images/bound-by-present/new_mexico.jpg" class="img" alt="New Mexico backpacking" loading="lazy" />
 </div>
 
@@ -55,37 +14,4 @@
 <p>Because our mind has the ability to travel through time in ways that our body cannot (yet), I feel that we as a species spend a lot of the time thinking only about the future and past, and maybe neglecting the present. While our ability to learn from mistakes and plan ahead is arguably a key trait that has kept us alive this long, I think we could learn something if we paid more attention to this instant.</p>
 
 <p>The difficult part about living in the moment is not being physically present. Rather, it’s about making yourself conscious of your surroundings, being able to absorb all of the emotions and sensations that your brain is receiving right at this very moment and being aware of the fact that this experience that you just had will never happen again, so savor the present while you are in it.</p>
-
-
-
-
-        </div>
-      </div>
-    </main>
-
-    
-      <footer>
-
-    <hr/>
-
-    <ul>
-      <li>
-      
-        <i class="fa fa-angle-left"></i>
-      
-      </li>
-
-      <li class="next">
-      
-        <a href="/page2/">
-          <i class="fa fa-angle-right"></i>
-        </a>
-      
-      </li>
-    </ul>
-</footer>
-
-    
-
-  </body>
-</html>
+:ET
