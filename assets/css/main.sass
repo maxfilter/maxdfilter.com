@@ -100,25 +100,35 @@ header
 
 // Image format
 
-.img-wrapper
-    margin-left: -1.5rem
-    margin-right: -1.5rem
+figure
     margin-top: 2rem
     margin-bottom: 2rem
-    max-width: $w-regular
-    background-color: $c-bg-light
 
-    img
-        display: block
-        width: 100%
-        height: auto
+    .img-wrapper
+        margin-left: -1.5rem
+        margin-right: -1.5rem
+        margin-bottom: 1rem
+        max-width: $w-regular
+        background-color: $c-bg-light
+
+        img
+            display: block
+            width: 100%
+            height: auto
+    
+    figcaption
+        +aku-type(small)
+        text-align: center
+        font-style: italic
 
 @media (min-width: 800px)
-    .img-wrapper
+    figure 
         margin-top: 3rem
         margin-bottom: 3rem
-        margin-left: 0
-        margin-right: 0
+
+        .img-wrapper
+            margin-left: 0
+            margin-right: 0
 
 .text
     flex: 1 0 auto
