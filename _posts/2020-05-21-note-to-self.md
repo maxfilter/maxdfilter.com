@@ -5,7 +5,7 @@ date:  21 May 2020
 
 When translating thoughts into words, don't over complicate them. 
 
-Like Paul Graham said in his [essay](http://www.paulgraham.com/talk.html),
+Like Paul Graham said in his [essay](http://www.paulgraham.com/talk.html){:target="_blank"},
 
 > Something comes over most people when they start writing. They write in a different language than they'd use if they were talking to a friend. The sentence structure and even the words are different.
 
