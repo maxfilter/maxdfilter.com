@@ -1,50 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Max Filter">
-
-    <!-- Title -->
-    <title> Max Filter  </title>
-
-    <!-- Global Styles -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
-
-  </head>
-
-  <body>
-    <main>
-      <header>
-  <h1 class="pg-title"><a href="/">Max Filter</a></h1>
-
-  <nav class="header-nav">
-    <ul>
-      <li><a href="/about">about</a></li>
-      <li><a href="/connect">connect</a></li>
-      <li><a href="/archive">archive</a></li>
-    </ul>
-  </nav>
-
-</header>
-
-
-      <div class="text">
-        <h1 class="text-title">  </h1>
-
-        <div class="text-content">
-          
-
-  <h1>Timelines and Threads</h1>
-
-  <figure>
+I"�	<figure>
     <div class="img-wrapper">
         <img src="/assets/images/timelines/greenhouse.jpg" class="img" alt="Virginia Tech Greenhouse" loading="lazy" />
     </div>
@@ -61,37 +15,4 @@
 <p>I find that the sense of fascination I get from looking closely at plants is similar to the feelings I get when I run programs on a computer. With the plants, I picture the growth and movement happening before my eyes that I am unable to detect. With the computer, I imagine the millions of instructions executed in each passing second, some of which I have written myself, but many more that I am only vaguely aware of.</p>
 
 <p>Perspective is everything when living in a world that operates on so many timelines, and knowing that every day we interface with objects that operate on timelines running concurrent to–yet apart from–our own is really cool.</p>
-
-
-
-
-        </div>
-      </div>
-    </main>
-
-    
-      <footer>
-
-    <hr/>
-
-    <ul>
-      <li>
-      
-        <i class="fa fa-angle-left"></i>
-      
-      </li>
-
-      <li class="next">
-      
-        <a href="/page2/">
-          <i class="fa fa-angle-right"></i>
-        </a>
-      
-      </li>
-    </ul>
-</footer>
-
-    
-
-  </body>
-</html>
+:ET

@@ -31,16 +31,17 @@ h1
     +aku-type(large)
     text-align: left
     margin-bottom : 2rem
-    font-weight: 400
+    font-weight: $f-weight-normal
 
 h2
     +aku-type(medium)
     margin-bottom : 1rem
     text-align: center
-    font-weight: 400
+    font-weight: $f-weight-normal
 
 p
     +aku-type(normal)
+    font-weight: $f-weight-light
     margin-bottom: 1rem
 
 hr
@@ -68,7 +69,6 @@ header
     text-transform: uppercase
     letter-spacing: 0
     text-align: center
-    font-weight: 500
     margin-bottom: 0.5rem
 
 .header-nav
@@ -108,7 +108,7 @@ figure
         margin-left: -1.5rem
         margin-right: -1.5rem
         margin-bottom: 1rem
-        max-width: $w-regular
+        max-width: $w-wide
         background-color: $c-bg-light
 
         img
@@ -127,8 +127,8 @@ figure
         margin-bottom: 3rem
 
         .img-wrapper
-            margin-left: 0
-            margin-right: 0
+            margin-left: -3rem
+            margin-right: -3rem
 
 .text
     flex: 1 0 auto
