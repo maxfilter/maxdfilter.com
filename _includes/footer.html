@@ -1,26 +1,60 @@
+{% if page.collection %}
+    {% assign links = site[page.collection] %}
+{% endif %}
+
+{% for link in links %}
+	{% if link.title == page.title and link.date == page.date %}
+		{% unless forloop.first %}
+			{% assign prev = tmpprev %}
+		{% endunless %}
+		{% unless forloop.last %}
+			{% assign next = links[forloop.index] %}
+		{% endunless %}
+	{% endif %}
+	{% assign tmpprev = link %}
+{% endfor %}
+
 <footer>
-
     <hr/>
-
-    <ul>
-      <li>
-      {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="prev">
-            <i class="fa fa-angle-left"></i>
+    {% if page.collection %}
+    <nav>
+        <!-- Credit to Manuel Moreale for the SVG arrows -->
+        <div>
+          {% if prev %}
+            <a class="prev" href="{{ prev.url }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                  <path d="M8.095 15L2 9l6.095-6 1.048 1.018L4.83 8.263H16v1.474H4.83l4.313 4.232z"/>
+                </svg>
+            </a>
+          {% else %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+              <path d="M8.095 15L2 9l6.095-6 1.048 1.018L4.83 8.263H16v1.474H4.83l4.313 4.232z"/>
+            </svg>
+          {% endif %}
+        </div>
+        <div>
+          {% if next %}
+          <a class="next" href="{{ next.url }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path d="M9.905 3L16 9l-6.095 6-1.048-1.018 4.313-4.245H2V8.263h11.17L8.857 4.031z"/>
+              </svg>
           </a>
-      {% else %}
-        <i class="fa fa-angle-left"></i>
-      {% endif %}
-      </li>
+          {% else %}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+              <path d="M9.905 3L16 9l-6.095 6-1.048-1.018 4.313-4.245H2V8.263h11.17L8.857 4.031z"/>
+          </svg>
+          {% endif %}
+        </div>
+    </nav>
+    {% endif %}
 
-      <li class="next">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}">
-          <i class="fa fa-angle-right"></i>
-        </a>
-      {% else %}
-          <i class="fa fa-angle-right"></i>
-      {% endif %}
-      </li>
-    </ul>
+    {% if page.collection == "photos" and page.desc %}
+    <div class="photo-desc">
+       {{ page.desc }}
+    </div>
+    {% endif %}
+
+    <div class=footer-meta>
+        {{ page.date | date: "%0d %B %Y" }} <em>@</em> {{ page.location }}
+    </div>
 </footer>

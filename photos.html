@@ -1,0 +1,11 @@
+---
+---
+<main class="full-width">
+    <div class="gallery">
+        {% for photo in site.photos reversed %}
+        <a href="{{ photo.url }}">
+            <img src="/assets/images/photos/{{ photo.name }}/{{ photo.name }}-sm.jpg"/>
+        </a>
+        {% endfor %}
+    </div>
+</main>

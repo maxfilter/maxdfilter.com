@@ -1,5 +1,11 @@
 ---
 layout: default
 ---
+<main>
+    
+    <h1 class="post-title">{{page.title}} {% if page.collection == "reading" %}<div class="author">by {{page.author}}</div>{% endif %}</h1>
 
-{{ content }}
+    {{ content }}
+</main>
+
+{% include footer.html %}

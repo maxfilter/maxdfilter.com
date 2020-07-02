@@ -1,18 +1,32 @@
 permalink: /:title
 
-plugins: [jekyll-paginate]
-paginate: 1
-paginate_path: /page:num/
-
 sass:
   style: compressed
+
+collections:
+  writing:
+    output: true
+  reading: 
+    output: true
+  photos: 
+    output: true
 
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "writing"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "reading"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "photos"
+    values:
+      layout: "photo"
   - scope:
       path: ""
     values:

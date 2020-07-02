@@ -12,238 +12,205 @@ html, body
     background-color: $c-bg
 
 body
-    display: flex
-    flex-direction: column
-    justify-content: space-between
+    // Keeps footer at bottom even if content is short
+    display: grid
+    grid-template-rows: min-content 1fr min-content
 
     padding: 0 1.5rem 0
     color: $c-text
-    margin-right: auto
     margin-left: auto
+    margin-right: auto
     max-width: $w-regular
     +aku-type(normal)
 
-main
-    padding-top: 4rem
-    flex: 1
+p 
+    padding-bottom: 1rem
 
-h1
+h1 
     +aku-type(large)
-    text-align: left
-    margin-bottom : 2rem
-    font-weight: $f-weight-normal
-
-h2
-    +aku-type(medium)
-    margin-bottom : 1rem
-    text-align: center
-    font-weight: $f-weight-normal
-
-p
-    +aku-type(normal)
-    font-weight: $f-weight-light
+    padding-top: 0.5rem
     margin-bottom: 1rem
+    font-weight: $f-weight-bold
+
+h2 
+    +aku-type(medium)
+    font-weight: $f-weight-bold
+    padding-bottom: 1rem
+    text-align: center
 
 hr
-    height: 2px
     border: none
-    margin-top: 2rem
-    margin-bottom: 2rem
-    background: $c-bg-light
-    width: 100%
-
-@media (min-width: 800px)
-    hr
-        width: $w-narrow
-
+    border-bottom: 1px dashed $c-text-light
+    background: none
+    margin-bottom: 1rem
 
 em 
     font-style: italic
 
-// Header
+strong
+    font-weight: $f-weight-bold
+
+// Table Styling
+table, th, td 
+    border: 1px solid $c-bg-light
+    border-collapse: collapse
+
+th
+    font-weight: $f-weight-bold
+    background-color: $c-bg-light
+
+th, td
+    text-align: left
+    padding: 5px
+
+// ~ Header -------------------------------------------------------------------
 header
-    margin-bottom: 2rem
+    padding: 2rem 0 0.5rem
 
-.pg-title
-    +aku-type(xlarge)
-    text-transform: uppercase
-    letter-spacing: 0
-    text-align: center
-    margin-bottom: 0.5rem
+    h1  
+        +aku-type(xlarge)
+        padding: 0
+        margin: 0
+        letter-spacing: 0
+        text-transform: uppercase
+        font-weight: $f-weight-light
 
-.header-nav
-    +aku-type(normal)
-    font-weight: $f-weight-normal
-
-
-    a
-        background-image: linear-gradient($c-highlight, $c-highlight)
-        background-repeat: no-repeat
-        background-position: 0% 100%
-        background-size: 100% 2px
-        transition: background-size ease 0.5s
-
-    a:hover
-        background-size: 100% 100%
-        transition: background-size ease 0.5s
-
-    ul
-        text-align: center
+    ul 
         li
             display: inline-block
-            margin-right: 1rem
+            padding-right: 0.5rem
+            color: $c-text-light
 
-        li:last-child
-            margin-right: 0rem
+            a:hover 
+                color: $c-text
 
-// ~ Text format --------------------------------------------------------------
+@media (min-width : 600px)
+    header
+        display: grid
+        grid-template-columns: 6rem 1fr
 
-// Image format
+    header ul 
+        line-height: 2rem
+        text-align: right
 
-figure
-    margin-top: 2rem
-    margin-bottom: 2rem
+        li
+            padding-right: 0
+            padding-left: 1rem
 
-    .img-wrapper
-        margin-left: -1.5rem
-        margin-right: -1.5rem
-        margin-bottom: 1rem
-        max-width: $w-wide
-        background-color: $c-bg-light
+// ~ Photo Archive Grid -------------------------------------------------------
+.full-width
+    //display: block
+    width: 100vw
+    position: relative
+    left: 50%
+    right: 50%
+    margin-left: -50vw
+    margin-right: -50vw
 
-        img
-            display: block
+.gallery
+    // Full width grid
+    // margin-left: -($w-wide - $w-regular)/2
+    // margin-right: -($w-wide - $w-regular)/2
+    // max-width: $w-wide
+    display: grid
+    grid-template-columns: repeat(auto-fill , $w-grid-item);
+    grid-auto-rows: min-content
+    justify-content: center
+    grid-gap: 2rem 1rem
+    max-width: $w-wide
+    margin: auto
+    padding: 1rem 1rem 3rem
+
+    a 
+        display: flex
+        vertical-align: middle
+        padding: 0 1rem
+
+        img 
+            margin: auto
             width: 100%
-            height: auto
-    
-    figcaption
-        +aku-type(small)
-        text-align: center
-        font-style: italic
 
-@media (min-width: 800px)
-    figure 
-        margin-top: 3rem
-        margin-bottom: 3rem
+@media (min-width: 500px)
+    .gallery 
+        grid-gap: 1rem 1rem
+        a
+            padding: 0
 
-        .img-wrapper
-            margin-left: -3rem
-            margin-right: -3rem
+// ~ Photo Post ---------------------------------------------------------------
+.photo-wrapper
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
 
-.text
-    flex: 1 0 auto
-    font-weight: $f-weight-light
+    img
+        width: auto
+        height: auto
+        max-width: calc(100vw - 1rem) // Gives photos small amount of padding
+        max-height: calc(100vh - 8rem) // Leaves room for header and footer
 
-    a
-        font-weight: $f-weight-normal
-        background-image: linear-gradient(to right, $c-highlight, $c-highlight)
-        background-repeat: no-repeat
-        background-position: 0% 100%
-        background-size: 100% 2px
-        transition: background-size 0.5s
-
-    a:hover
-        background-size: 100% 100%
-        transition: background-size 0.5s
-
-    blockquote
-        font-style: italic
-        border-left: 2px solid $c-bg-light
-        padding-left: 0.75rem
-        margin-bottom: 1rem
-
-    div
-        position: center
-
-    ol, ul, dl
-        margin-bottom: 1rem
-
-    ul
-        list-style-type: square
-        list-style-position: inside
-
-
-    @media (min-width: 600px)
-
-        blockquote
-            position: relative
-            padding-left: 0.5rem
-            left: -0.55rem
-
-        ol, ul, dl
-            list-style-position: outside
-
-
-.text-footer
-    margin-top: 2rem
-    text-align: center
-
-
-// Archive
-
+// ~ Reading & Writing Archives -----------------------------------------------
 .archive
+    padding-bottom: 2rem
+
+    .archive-date
+        font-family: $f-mono
+        color: $c-text-light
+
+        .archive-month
+            text-align: right
+            padding: 0
+
+        .archive-year
+            margin-top: 1rem
+            border-bottom: 1px dashed $c-text-light
+            border-top: 1px dashed $c-text-light
+
+    .archive-day
+        font-family: $f-mono
+        padding-left: 1rem
+    
     a
-      text-decoration: none
-      background-size: 0
-      display: flex
-      flex-direction: row
+        display: grid
+        grid-template-columns: 1fr min-content
 
-    a:hover
-      background-size: 0
+// ~ Reading & Writing Posts --------------------------------------------------
+.post-title
+    border-bottom: 1px dashed $c-text-light
 
-    hr
-        margin-top: 0
-        margin-bottom: 0
-
-.archive-day
-    min-width: 2rem
-    width: 2rem
-
-    p
-        margin-bottom: 0
-        +aku-type(small)
-
-.archive-title
-    width: 100%
-    font-weight: $f-weight-light
-
-    p
-        margin-bottom: 0
-
-.archive-year
-    +aku-type(medium)
-    font-weight: 400
-    text-align: center
-    margin-top: 1rem
-    margin-bottom: 0
-
-.archive-month
-    font-weight: 400
-    text-align: left
-    margin-top: 1rem
-    margin-bottom: 0rem
+.author
+    color: $c-text-light
+    font-style: italic
 
 
-// Footer
+// ~ Footer -------------------------------------------------------------------
+svg
+    fill: $c-text-light
+    width: 0.75rem
+    height: 0.75rem
+
 footer
-    +aku-type(large)
-    padding-bottom: 3rem
-    color: hsl(0, 0, 75)
-
-    a i
-        color: $c-text
-        padding: 0 5px
+    padding: 1.5rem 0
 
     hr
         margin-bottom: 0.5rem
 
-    ul
+    nav
+        display: grid
+        grid-template-columns: 1fr min-content
+        //padding-bottom: 0.5rem
+
+        a svg
+            fill: $c-text
+
+    .photo-desc
+        padding-top: 0.5rem
+
+    .footer-meta
+        padding-top: 1rem
+        +aku-type(small)
         text-align: center
+        color: $c-text-light
 
-        li
-            display: inline-block
-            margin-right: 85%
 
-        li:last-child
-            margin-right: 0rem
-
+        

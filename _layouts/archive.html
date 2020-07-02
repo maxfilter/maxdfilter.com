@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% if page.collection == "writing" %}
+    {% assign collection = site.writing %}
+{% elsif page.collection == "reading" %}
+    {% assign collection = site.reading %}
+{% endif %}
+
+<main class="archive">
+    {% for post in collection reversed %}
+    
+        {% assign nextYear = post.date | date: "%Y" %}
+        {% assign nextMonth = post.date | date: "%b" %}
+
+        {% if nextYear != currentYear or nextMonth != currentMonth %}
+        <div class="archive-date">
+        {% if nextYear != currentYear %}
+            <div class="archive-year">{{ nextYear }}</div>
+            {% assign currentYear = nextYear %}
+        {% endif %}
+        {% if nextMonth != currentMonth %}
+            <div class="archive-month">{{ nextMonth }}</div>
+            {% assign currentMonth = nextMonth %}
+        {% endif %}
+        </div>
+        {% endif %}
+        <a href="{{ post.url }}">
+            <div class="archive-title">
+                {{ post.title }}
+            </div>
+            <div class="archive-day">
+                {{ post.date | date: "%d"}}
+            </div>
+        </a>
+  {% endfor %}
+</main>
