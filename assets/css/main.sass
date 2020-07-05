@@ -99,7 +99,6 @@ header
 
 // ~ Photo Archive Grid -------------------------------------------------------
 .full-width
-    //display: block
     width: 100vw
     height: 100vh
     position: relative
@@ -109,33 +108,21 @@ header
     margin-right: -50vw
 
 .gallery
-    // Full width grid
-    // margin-left: -($w-wide - $w-regular)/2
-    // margin-right: -($w-wide - $w-regular)/2
-    //max-width: $w-wide
     display: grid
-    grid-template-columns: repeat(auto-fill , $w-grid-item);
-    grid-auto-rows: min-content
-    // grid-gap: 2rem 1rem
-
-    justify-content: center
-    margin: auto
+    grid-template-columns: repeat(auto-fit , minmax($w-grid-item, 1fr))
     padding: 1rem 1rem 3rem
+    max-width: $w-wide
+    margin: auto
+    grid-gap: 2rem 1rem
 
     a 
-        display: inline-block
-        width: $w-grid-item
-        height: $w-grid-item
-        line-height: $w-grid-item
-        text-align: center
-        vertical-align: center
+        display: flex
+        align-items: center
+        line-height: 0
+        padding: 0 2rem
 
         img 
-            margin: auto
-            vertical-align: middle
-            display: inline-block
-            max-width: $w-grid-item
-            max-height: $w-grid-item
+            width: 100%
 
 @media (min-width: 500px)
     .gallery 
