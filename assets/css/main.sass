@@ -135,13 +135,17 @@ header
     display: flex
     align-items: center
     justify-content: center
-    position: relative
+    height: calc(100vh - 12rem)
 
     img
-        width: auto
-        height: auto
-        max-width: calc(100vw - 1rem) // Gives photos small amount of padding
-        max-height: calc(100vh - 8rem) // Leaves room for header and footer
+        object-fit: contain
+        height: 100%
+        width: calc(100vw - 2rem)
+
+@media (min-width: 500px)
+    .photo-wrapper
+        height: calc(100vh - 10rem)
+
 
 // ~ Reading & Writing Archives -----------------------------------------------
 .archive

@@ -2,5 +2,5 @@
 name:       lake-jordan
 location:   Acadia National Park
 date:       2018-05-15
-desc:       View from bubble mountain
+desc:       View from bubble mountain. Also a very very very very very very very very very very very very very very very very very very very very very very very very long description
 ---
