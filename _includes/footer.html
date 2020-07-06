@@ -14,7 +14,7 @@
 	{% assign tmpprev = link %}
 {% endfor %}
 
-<footer>
+<footer {% if page.collection == "photos" %}class="photo-padding"{% endif %}>
     <hr/>
     {% if page.collection %}
     <nav>
