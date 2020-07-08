@@ -139,12 +139,11 @@ line 3 of code
 
 <p>Syntax highlighting</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">bar</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">bar</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="nx">bar</span><span class="o">++</span><span class="p">;</span>
 <span class="p">};</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span>
-</code></pre></div></div>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span></code></pre></figure>
 
 <h2 id="tables">Tables</h2>
 
@@ -205,6 +204,15 @@ line 3 of code
 <p>Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</p>
 
 <h2 id="images">Images</h2>
+
+<p><img src="https://octodex.github.com/images/minion.png" alt="Minion" />
+<img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat" /></p>
+
+<p>Like links, Images also have a footnote style syntax</p>
+
+<p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat" /></p>
+
+<p>With a reference later in the document defining the URL location:</p>
 
 <h2 id="plugins">Plugins</h2>
 
@@ -320,9 +328,11 @@ with lazy continuation.</p>
         </div>
         <div>
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-              <path d="M9.905 3L16 9l-6.095 6-1.048-1.018 4.313-4.245H2V8.263h11.17L8.857 4.031z"/>
-          </svg>
+          <a class="next" href="/writing/rainbows-deck-chairs">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path d="M9.905 3L16 9l-6.095 6-1.048-1.018 4.313-4.245H2V8.263h11.17L8.857 4.031z"/>
+              </svg>
+          </a>
           
         </div>
     </nav>

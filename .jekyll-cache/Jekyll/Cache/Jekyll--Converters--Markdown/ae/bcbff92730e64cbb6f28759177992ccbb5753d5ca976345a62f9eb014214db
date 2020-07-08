@@ -1,4 +1,4 @@
-I"×<h1 id="h1-heading-8-">h1 Heading 8-)</h1>
+I"}!<h1 id="h1-heading-8-">h1 Heading 8-)</h1>
 <h2 id="h2-heading">h2 Heading</h2>
 <h3 id="h3-heading">h3 Heading</h3>
 <h4 id="h4-heading">h4 Heading</h4>
@@ -107,12 +107,11 @@ line 3 of code
 
 <p>Syntax highlighting</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">bar</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">bar</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="nx">bar</span><span class="o">++</span><span class="p">;</span>
 <span class="p">};</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span>
-</code></pre></div></div>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span></code></pre></figure>
 
 <h2 id="tables">Tables</h2>
 
@@ -173,6 +172,15 @@ line 3 of code
 <p>Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</p>
 
 <h2 id="images">Images</h2>
+
+<p><img src="https://octodex.github.com/images/minion.png" alt="Minion" />
+<img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat" /></p>
+
+<p>Like links, Images also have a footnote style syntax</p>
+
+<p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat" /></p>
+
+<p>With a reference later in the document defining the URL location:</p>
 
 <h2 id="plugins">Plugins</h2>
 

@@ -38,6 +38,9 @@ h2
     padding-bottom: 1rem
     text-align: center
 
+h3, h4, h5, h6 
+    font-weight: $f-weight-bold
+
 hr
     border: none
     border-bottom: 1px dashed $c-text-light
@@ -62,6 +65,56 @@ th
 th, td
     text-align: left
     padding: 5px
+
+main 
+    a
+        text-decoration: underline
+
+    blockquote
+        padding-left: 1rem
+        font-style: italic
+
+    ol, ul, dl
+        padding-bottom: 1rem
+        list-style-position: inside
+
+    ul
+        list-style-type: circle
+
+    ol
+        list-style-type: decimal
+
+    li ul
+        padding-left: 1rem
+        padding-bottom: 0
+
+    pre code
+        display: block
+        overflow-x: auto
+        padding-top: 0.1rem
+        padding-bottom: 0.1rem
+        font-family: $f-mono
+        background: $c-bg-light
+        padding: 1rem
+        white-space: pre
+        border-radius: 10px
+    
+    pre
+        padding-bottom: 1rem
+
+    img
+        display: block
+        width: 100%
+        height: auto
+        padding-bottom: 1rem
+
+    .footnotes
+        color: $c-text-light
+
+@media (min-width : 600px)
+    main
+        ol, ul, dl
+            list-style-position: outside
 
 // ~ Header -------------------------------------------------------------------
 header
@@ -169,6 +222,7 @@ header
         padding-left: 1rem
     
     a
+        text-decoration: none
         display: grid
         grid-template-columns: 1fr min-content
 
