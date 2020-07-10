@@ -1,34 +1,33 @@
 ---
-title: Hi there
+title: Welcome to my little corner of the internet
 layout: post
 location: Blacksburg, VA
 date: 2020-07-09
 ---
 
-My name is Max and this is my little corner of the internet. 
-
-A lot of my time is spent learning about how the world works, building things and hanging around outside or with friends. I also like reading, cooking, writing in my Field Notes, taking pictures and pretending to be a writer. 
+Most of my time is spent figuring out how the world works, building things and hanging around outside or with friends. I also enjoy reading, cooking, recording thoughts in my Field Notes, taking pictures and pretending to be a writer. 
 
 ## Currently
 
-I'm working as an AI Research Intern for [Lockheed Martin](https://www.lockheedmartin.com/en-us/index.html) and finishing up my undergrad in Computer Science at [Virginia Tech](https://vt.edu/). 
+I'm working as an AI Research Intern at [Lockheed Martin](https://www.lockheedmartin.com/en-us/index.html) and finishing up my undergrad in Computer Science at [Virginia Tech](https://vt.edu/). 
 
 ## Future
 
-I've always felt passionate about the outdoors and only really became a computer geek after my first semester of college, so I'm learning all the time and am still not sure what the future has in store for me. No matter what, it will combine these two interests in a way that benefits others. Maybe helping robots survive extreme environments, maybe working with scientists, or maybe I've just been reading too much sci-fi... you'll have to wait and see.
+I'm passionate about the outdoors and have been learning about computers since my freshman year of college. Though I still haven't decided what my future will be like, I'm determined to combine my interests in a way that benefits others. Maybe in the future I'll design robots capable of surviving extreme environments, or create tools to help scientists, or maybe I've just been reading too much sci-fi... you'll have to wait and see.
 
-I also have dreams of [backpacking the triple crown](https://en.wikipedia.org/wiki/Triple_Crown_of_Hiking) and working in Antarctica.
+Secretly, I have dreams of [backpacking the triple crown](https://en.wikipedia.org/wiki/Triple_Crown_of_Hiking) and working in Antarctica.
 
 ## Contact
 
-If you want to catch up, talk, or even just say hi, I'm available via [email](mailto:max.filtercalvo@gmail.com) or [LinkedIn](https://www.linkedin.com/in/maxfilter/).
+If you want to catch up, talk, or even just say hi, I'm available by [email](mailto:max.filtercalvo@gmail.com) or [LinkedIn](https://www.linkedin.com/in/maxfilter/).
 
 ## Friends
 
-I haven't gotten the chance to meet all of these people, but I find them all inspiring and know that my life wouldn't be the same without them.
+Some of these people are close family and friends. Others I haven't met yet, but they write excellent blogs. All people that I find inspiring, though.
 
 - [Trevor Filter](https://trevorfilter.com){:target="_blank"}
 - [Youness Bella](https://younessbella.com){:target="_blank"}
+- [Pau Lleonart](https://pausweb.com){:target="_blank"}
 - [Edward Chau](https://edchau.github.io){:target="_blank"}
 - [Manuel Moreale](https://manuelmoreale.com){:target="_blank"}
 - [Wait But Why](https://waitbutwhy.com){:target="_blank"}
@@ -38,3 +37,5 @@ I haven't gotten the chance to meet all of these people, but I find them all ins
 - [Alex Johnson](https://alxmjo.com/){:target="_blank"}
 - [James Clear](https://jamesclear.com/articles){:target="_blank"}
 - [Max Heinritz](https://maxheinritz.com){:target="_blank"}
+
+Also, shout out to others like Joey C, Bella V, and Lauren B for being absolutely awesome people.
