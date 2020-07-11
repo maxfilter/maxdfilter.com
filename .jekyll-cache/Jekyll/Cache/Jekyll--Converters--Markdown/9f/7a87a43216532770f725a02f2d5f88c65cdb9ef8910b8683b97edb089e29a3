@@ -1,36 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Max Filter">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-
-    <title>Max Filter</title>
-
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-</head>
-
-
-    <body>
-        <header>
-    <h1><a href="/">Max Filter</a></h1>
-    <nav>
-        <ul>
-            <li><a href="/">writing</a></li>
-            <li><a href="/reading">reading</a></li>
-            <li><a href="/photos">photos</a></li>
-            <li><a href="/about">about</a></li>
-        </ul>
-    </nav>
-</header>
-
-        
-        <main class="post">
-    
-    <h1 class="post-title">Hi there! </h1>
-
-    <p>I’m Max. Welcome to my little corner of the internet.</p>
+I"{
+<p>I’m Max. Welcome to my little corner of the internet.</p>
 
 <p>Most of my time is spent figuring out how the world works, building things and hanging around outside or with friends. I also enjoy reading, cooking, recording thoughts in my Field Notes, taking pictures and pretending to be a writer.</p>
 
@@ -68,22 +37,4 @@
 </ul>
 
 <p>Also, shout out to others like Joey C, Bella V, and Lauren B for being absolutely awesome people.</p>
-
-</main>
-
-
-
-
-
-<footer >
-    <hr/>
-    
-
-    
-
-    <div class=footer-meta>
-        09 July 2020 <em>@</em> Blacksburg, VA
-    </div>
-</footer>
-    </body>
-</html>
+:ET
