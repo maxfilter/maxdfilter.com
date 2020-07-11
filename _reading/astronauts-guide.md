@@ -7,7 +7,7 @@ date:       2020-07-10
 
 Chris Hadfield is humble, inspiring and has a fantastic sense of humor. I was expecting a light read with this book, but quickly realized that there was a pretty heavy life lesson on every other page. I enjoyed how honest Hadfield was--he didn't sugarcoat the unpleasant things, but at the same time he managed to find a positive twist to them--like how he was disappointed about not being able to do the EVA in 2012, but quickly turned it around and wrote about how he knew that he was not the most qualified candidate and wanted to do everything he could to ensure the success of his crew.
 
-Astronauts are sometimes portrayed as being ego-driven in the movies, but after reading I realized that they seem like some of the most down to Earth people I know, and would love to meet one someday. The way NASA moves them down the ladder of importance as soon as the mission is over, the way that they support each other, it's all pretty awesome.
+Astronauts seem like incrediby down to Earth people, and I would love to meet one someday. The way NASA moves them down the ladder of importance as soon as the mission is over, the way that they support each other, it's all pretty awesome.
 
 Hadfield knew he wanted to be an astronaut when he was 9, and acted with determination from that point on. He also knew that it was incredibly difficult to become an astronaut (impossible in Canada, when his dream first started), so he made a point of not basing his self worth on that single goal. Even after he became one, he still had over twenty years of constant learning and there was no guarantee that he would ever go to space. 
 
