@@ -5,13 +5,13 @@
 {% for link in links %}
 	{% if link.title == page.title and link.date == page.date %}
 		{% unless forloop.first %}
-			{% assign prev = tmpprev %}
+			{% assign next = tmpnext %}
 		{% endunless %}
 		{% unless forloop.last %}
-			{% assign next = links[forloop.index] %}
+			{% assign prev = links[forloop.index] %}
 		{% endunless %}
 	{% endif %}
-	{% assign tmpprev = link %}
+	{% assign tmpnext = link %}
 {% endfor %}
 
 <footer {% if page.collection == "photos" %}class="photo-padding"{% endif %}>

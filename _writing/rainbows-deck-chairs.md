@@ -16,6 +16,6 @@ On Monday, we got caught in a drizzle while running, which led to a double rainb
 
 ---
 
-The sunsets have been pretty cool lately, and once the sun goes down I can usually spot a dozen fire flies hanging around, so it’s been fun to follow them around the back yard. 
+The sunsets have been stunning lately, and once the sun goes down I can usually spot a dozen fire flies hanging around, so it’s been fun to follow them around the back yard. 
 
 In other good news, [Youness](https://www.younessbella.com) was offered an internship this week with a cloud software company, which is awesome! We also got some deck chairs for our porch and have been getting some good use out of them. Lots going on, but all good things!
