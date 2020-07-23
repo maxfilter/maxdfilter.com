@@ -81,11 +81,11 @@ The other styling files are `reset.sass`, which removes the style inconsistencie
 
 In the past, photos made my website very slow so my goal this time around was to streamline this part. My `./assets/images` folder sorts images by the post category, which currently is photos, reading, and writing. The next folder is the title of the post and stores two different photo sizes, small (512px width) and regular (2048px width). I use the small photos for the [photo grid](https://maxfilt.com/photos){:target="_blank"} (`photos.html`), and the regular ones when they are displayed [individually](https://maxfilt.com/photos/bastiments){:target="_blank"} (`./_layouts/photo.html`). Each photo is also compressed using [ImageOptim](https://imageoptim.com/mac){:target="_blank"} to make the file sizes even smaller.
 
-Once they've been added to the assets folder, I create a new post in the `./_photos` folder, which specifies information about the photo like the `name`, `date`, `location`, and a short `description`.
+Once they've been added to the `assets` folder, I create a new post in the `./_photos` folder, which specifies information about the photo like the `name`, `date`, `location`, and a short `description`.
 
 ## Writing & Reading
 
-The writing and reading sections use the same archive.html layout and show all of the content in the `./_reading` and `./_writing` folders. Each writing post stores the post title, date, and location, and the reading posts also store the book's author, with each individual post (like this one) using the post.html layout.
+The writing and reading sections use the same `archive.html` layout and show all of the content in the `./_reading` and `./_writing` folders. Each writing post stores the post `title`, `date`, and `location`, and the reading posts also store the book's `author`, with each individual post (like this one) using the `post.html` layout.
 
 Everything else about this website like the `Gemfile` and the `_config.yml` is standard across all Jekyll sites, so that's all there is to it really. If you're curious about the actual code for my site, you can find the most up-to-date version [here](https://github.com/maxfilter/maxfilt-com){:target="_blank"}.
 
