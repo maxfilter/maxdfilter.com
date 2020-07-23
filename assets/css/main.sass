@@ -89,9 +89,15 @@ th, td
         padding-left: 1rem
         padding-bottom: 0
 
+    code
+        +aku-type(small)
+        font-family: $f-mono
+        background: $c-bg-light
+
     pre code
         display: block
-        overflow-x: auto
+        max-width: $w-regular
+        overflow-x: scroll
         padding-top: 0.1rem
         padding-bottom: 0.1rem
         font-family: $f-mono

@@ -1,0 +1,86 @@
+I"<p>The World Wide Web and every site on it is made of files that link to other files. These files are stored on computers around the world, which are themselves connected to create the Internet.</p>
+
+<p>At first glance this might sound boring, but think about it this way: In the moments between you clicking a link and that website appearing on your screen, your computer has to find the files necessary for showing that website. To do that, it sends a message out into the Internet. At any given instant this message might be traveling at 60% the speed of light, moving under New York City, crossing through cables under the ocean and passing through the <a href="https://slate.com/technology/2014/08/shark-attacks-threaten-google-s-undersea-internet-cables-video.html" target="_blank">jaws of a shark</a>, until it finds the files it’s looking for or dies trying. Once the computer that stores those files receives a request, it sends them back to you and the website is displayed.</p>
+
+<h2 id="tools">Tools</h2>
+
+<p>So that’s pretty cool, but what kind of files are used to render a web page?</p>
+
+<p>First is <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a> (Hypertext Markup Language), which has the actual content of the page including the titles, paragraphs and image placeholders as well as some general data about the site, like the author or links to styles and fonts. Each page on a website has an HTML file associated with it.</p>
+
+<p>Next, <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a> (Cascading Style Sheets) is where you add in the styles that make websites unique. For most sites you only need one CSS file, and if you’ve ever seen a website load weird and look like a bunch of text with blue links, that’s what websites would look like without CSS.</p>
+
+<p>There are some other languages you can use for styling, such as <a href="https://sass-lang.com/" target="_blank">SASS</a> (Syntactically Awesome Style Sheets) which is basically CSS with some cool extra features that make it more compact.</p>
+
+<p>Finally, if you want your website to be interactive or connect to a database, you can add in <a href="https://www.w3schools.com/js/js_intro.asp" target="_blank">Javascript</a>.</p>
+
+<h2 id="structure">Structure</h2>
+
+<p>This website is made with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, which is a static site generator. The idea behind it is that instead of tediously writing out each HTML file, you create layouts that each type of post follows, like for the writing or photos sections. Jekyll will then generate the HTML from easier-to-work-with <a href="https://www.markdownguide.org" target="_blank">Markdown</a> according to the specified layout.</p>
+
+<p>Some other neat things about Jekyll are that you can write small pieces of HTML that can then be included in the different layouts, it has support for SASS and it lets you use Liquid syntax that gives you the ability to write HTML loops for adding the link of each post in an archive, for example.</p>
+
+<p>That said, this is what the file structure looks like for my website:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">.</span>
+├── Gemfile
+├── Gemfile.lock
+├── _config.yml
+├── _includes
+│   ├── footer.html
+│   ├── head.html
+│   └── header.html
+├── _layouts
+│   ├── archive.html
+│   ├── default.html
+│   ├── photo.html
+│   └── post.html
+├── _photos
+│   └── photo.md
+├── _reading
+│   └── book.md
+├── _sass
+│   ├── reset.sass
+│   ├── typography
+│   │   ├── settings.sass
+│   │   └── type.sass
+│   └── variables.sass
+├── _writing
+│   └── post.md
+├── about.md
+├── assets
+│   ├── css
+│   │   └── main.sass
+│   └── images
+│       ├── photos
+│       │   └── photo
+│       │       ├── photo-sm.jpg
+│       │       └── photo.jpg
+│       └── writing
+├── photos.html
+├── reading.html
+└── writing.html
+</code></pre></div></div>
+
+<p>It looks like a lot, but it’s not nearly as bad as it might seem.</p>
+
+<h2 id="typography--styling">Typography &amp; Styling</h2>
+
+<p>I implemented Manuel Moreale’s typography layout, which he explains nicely in <a href="https://manuelmoreale.com/typography-and-spacing-in-css" target="_blank">this post</a>.</p>
+
+<p>The other styling files are <code class="language-plaintext highlighter-rouge">reset.sass</code>, which removes the style inconsistencies from each browser, <code class="language-plaintext highlighter-rouge">variables.sass</code> which has the main site variables (like font family, background color, content width…) and <code class="language-plaintext highlighter-rouge">main.sass</code>, which has the rest of the styling in the website. Jekyll takes all of this and creates a main.css file, which is stored in <code class="language-plaintext highlighter-rouge">./assets/css</code>.</p>
+
+<h2 id="photos">Photos</h2>
+
+<p>In the past, photos made my website very slow so my goal this time around was to streamline this part. My <code class="language-plaintext highlighter-rouge">./assets/images</code> folder sorts images by the post category, which currently is photos, reading, and writing. The next folder is the title of the post and stores two different photo sizes, small (512px width) and regular (2048px width). I use the small photos for the <a href="https://maxfilt.com/photos" target="_blank">photo grid</a> (<code class="language-plaintext highlighter-rouge">photos.html</code>), and the regular ones when they are displayed <a href="https://maxfilt.com/photos/bastiments" target="_blank">individually</a> (<code class="language-plaintext highlighter-rouge">./_layouts/photo.html</code>). Each photo is also compressed using <a href="https://imageoptim.com/mac" target="_blank">ImageOptim</a> to make the file sizes even smaller.</p>
+
+<p>Once they’ve been added to the assets folder, I create a new post in the <code class="language-plaintext highlighter-rouge">./_photos</code> folder, which specifies information about the photo like the <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">date</code>, <code class="language-plaintext highlighter-rouge">location</code>, and a short <code class="language-plaintext highlighter-rouge">description</code>.</p>
+
+<h2 id="writing--reading">Writing &amp; Reading</h2>
+
+<p>The writing and reading sections use the same archive.html layout and show all of the content in the <code class="language-plaintext highlighter-rouge">./_reading</code> and <code class="language-plaintext highlighter-rouge">./_writing</code> folders. Each writing post stores the post title, date, and location, and the reading posts also store the book’s author, with each individual post (like this one) using the post.html layout.</p>
+
+<p>Everything else about this website like the <code class="language-plaintext highlighter-rouge">Gemfile</code> and the <code class="language-plaintext highlighter-rouge">_config.yml</code> is standard across all Jekyll sites, so that’s all there is to it really. If you’re curious about the actual code for my site, you can find the most up-to-date version <a href="https://github.com/maxfilter/maxfilt-com" target="_blank">here</a>.</p>
+
+<p>If you’re still here, thanks for sticking around and I hope you found this interesting.</p>
+:ET
