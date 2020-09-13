@@ -4,7 +4,7 @@ location:   Blacksburg, VA
 date:       2020-09-12
 ---
 
-<div class="full-width photo-wrapper">
+<div class="writing-photo">
     <img loading="lazy" src="/assets/images/writing/window-views/window.jpeg"/>
 </div>
 

@@ -106,11 +106,11 @@
 
 <p>In the past, photos made my website very slow so my goal this time around was to streamline this part. My <code class="language-plaintext highlighter-rouge">./assets/images</code> folder sorts images by the post category, which currently is photos, reading, and writing. The next folder is the title of the post and stores two different photo sizes, small (512px width) and regular (2048px width). I use the small photos for the <a href="https://maxfilt.com/photos" target="_blank">photo grid</a> (<code class="language-plaintext highlighter-rouge">photos.html</code>), and the regular ones when they are displayed <a href="https://maxfilt.com/photos/bastiments" target="_blank">individually</a> (<code class="language-plaintext highlighter-rouge">./_layouts/photo.html</code>). Each photo is also compressed using <a href="https://imageoptim.com/mac" target="_blank">ImageOptim</a> to make the file sizes even smaller.</p>
 
-<p>Once they’ve been added to the assets folder, I create a new post in the <code class="language-plaintext highlighter-rouge">./_photos</code> folder, which specifies information about the photo like the <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">date</code>, <code class="language-plaintext highlighter-rouge">location</code>, and a short <code class="language-plaintext highlighter-rouge">description</code>.</p>
+<p>Once they’ve been added to the <code class="language-plaintext highlighter-rouge">assets</code> folder, I create a new post in the <code class="language-plaintext highlighter-rouge">./_photos</code> folder, which specifies information about the photo like the <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">date</code>, <code class="language-plaintext highlighter-rouge">location</code>, and a short <code class="language-plaintext highlighter-rouge">description</code>.</p>
 
 <h2 id="writing--reading">Writing &amp; Reading</h2>
 
-<p>The writing and reading sections use the same archive.html layout and show all of the content in the <code class="language-plaintext highlighter-rouge">./_reading</code> and <code class="language-plaintext highlighter-rouge">./_writing</code> folders. Each writing post stores the post title, date, and location, and the reading posts also store the book’s author, with each individual post (like this one) using the post.html layout.</p>
+<p>The writing and reading sections use the same <code class="language-plaintext highlighter-rouge">archive.html</code> layout and show all of the content in the <code class="language-plaintext highlighter-rouge">./_reading</code> and <code class="language-plaintext highlighter-rouge">./_writing</code> folders. Each writing post stores the post <code class="language-plaintext highlighter-rouge">title</code>, <code class="language-plaintext highlighter-rouge">date</code>, and <code class="language-plaintext highlighter-rouge">location</code>, and the reading posts also store the book’s <code class="language-plaintext highlighter-rouge">author</code>, with each individual post (like this one) using the <code class="language-plaintext highlighter-rouge">post.html</code> layout.</p>
 
 <p>Everything else about this website like the <code class="language-plaintext highlighter-rouge">Gemfile</code> and the <code class="language-plaintext highlighter-rouge">_config.yml</code> is standard across all Jekyll sites, so that’s all there is to it really. If you’re curious about the actual code for my site, you can find the most up-to-date version <a href="https://github.com/maxfilter/maxfilt-com" target="_blank">here</a>.</p>
 
@@ -129,9 +129,11 @@
         <!-- Credit to Manuel Moreale for the SVG arrows -->
         <div>
           
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-              <path d="M8.095 15L2 9l6.095-6 1.048 1.018L4.83 8.263H16v1.474H4.83l4.313 4.232z"/>
-            </svg>
+            <a class="prev" href="/writing/window-views">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                  <path d="M8.095 15L2 9l6.095-6 1.048 1.018L4.83 8.263H16v1.474H4.83l4.313 4.232z"/>
+                </svg>
+            </a>
           
         </div>
         <div>
@@ -149,7 +151,7 @@
     
 
     <div class=footer-meta>
-        22 July 2020 <em>@</em> Blacksburg, VA
+        23 July 2020 <em>@</em> Blacksburg, VA
     </div>
 </footer>
     </body>
