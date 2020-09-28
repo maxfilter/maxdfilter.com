@@ -1,0 +1,18 @@
+---
+title:      Progress
+date:       2020-09-27
+location:   Blacksburg, VA
+---
+
+One of the most interesting experiences for me is realizing the limitations of my body. If I can't even control my own body, then how can I control any other aspect of my life or make other peoples' lives better? This sounds random, but I'm sure everyone has felt it at some point--like when you can picture something almost perfectly in your mind, and then you try to draw it and the image turns out to be impossible to recreate. Or when you feel pumped up and like you can do anything, but then you try to do a few pull ups and damn... why are pull ups so hard? So all of the sudden you realize that your entire consciousness is just some weird little voice sitting in your brain that feels totally disconnected to your body, and in a grander sense, reality.
+
+But what's cool is that if you really focus on controlling the movements, your mind and your muscles, it's actually possible to strengthen connections and develop new skills. The physical processes that have to be going on in your brain to make that happen must be incredibly awesome. You're realizing your limits and then pushing past them, and literally becoming a different person in the process. You end up thinking about things differently--not as much "I can't do that" or "that's not me", more "I just haven't put in the time to develop that particular skill". 
+
+Not that a lot of these skills are easy or come naturally. Sometimes they take years, even lifetimes to master, and even then there's still room for improvement. 
+
+Here's a story: Growing up, I hated the way that I held my pencil. It's hard to explain, but if you saw it you'd think *how is that even possible?* But it was the only way I knew how to write. Eventually, I decided to start practicing my writing technique: I would open up a notebook and write pages of each letter, day after day. And let me tell you, each letter was painful, awkward, and it honestly looked like I was trying to write while jogging or something like that. I don't know exactly when, or why, but one day it just kind of clicked. I could write just as well while holding the pencil properly as I could with my weird grip. 
+
+The story has repeated itself again and again over the years, from learning how to type to getting better at running, learning how to snow board, code or even succeed in school. It was always extreme frustration, followed by a lot of deliberate and mindful practice, and eventually (after too many failures to count) success!
+
+I'm only thinking about this now because I started going to the gym with my brother after years of thinking that I would never fit in there, and I'm actually at a point where I'm starting to feel results. I have so far to go, but I've taken the first step and that has always been the hardest part. It's kind of cool, it makes me feel like I have a little more control over my life. I think after the monotony of the last few months, I'm remembering how much fun it is to improve as a person.
+
