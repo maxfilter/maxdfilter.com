@@ -4,7 +4,7 @@ date:       2020-11-20
 location:   Blacksburg, VA
 ---
 
-When I was a freshman in high school, I came home from school one day and fount out that I was moving to Spain, that I had to pack right away. I took it about as well as any fourteen-year-old would, which is to say, not very well at all. It's been six years, but I still think back on it all the time.
+When I was a freshman in high school, I came home from school one day and found out that I was moving to Spain, that I had to pack right away. I took it about as well as any fourteen-year-old would, which is to say, not very well at all. It's been six years, but I still think back on it all the time.
 
 The summer before, my mom moved to Spain to be closer to her family, and I decided to stay in Connecticut with my dad and sister. It was one of the better summers in my childhood – in June I was out camping every weekend and in August we moved into a new house in Sandy Hook. Even before we had furniture or painted the walls it felt like home. It was definitely a quirky place – originally a summer home for people trying to get away from the New York City, the front was painted red while the back was white. It was charming though, and it was only a stone's through away from Lake Zoar.
 
