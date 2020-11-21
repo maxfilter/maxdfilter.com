@@ -12,7 +12,7 @@ The summer before, my mom moved to Spain to be closer to her family, and I decid
     <img loading="lazy" src="/assets/images/writing/moving-to-spain/moving.jpeg"/>
 </div>
 
-Later, when I got a nice bike, I could visit my friends and explore town whenever I felt like it. I was also old enough that I could take the train to visit my brother Trevor whenever I wanted, which to me a dream come true. That summer, I joined the cross country team and made a lot of new friends. After moving around so much the year before, I was mostly just excited for a new chapter where things would feel more calm and normal. 
+Later, when I got a nice bike, I could visit my friends and explore town whenever I felt like it. I was also old enough that I could take the train to visit my brother Trevor in NYC whenever I wanted, which to me was a dream come true. That summer, I joined the cross country team and made a lot of new friends. After moving around so much the year before, I was mostly just excited for a new chapter where things would feel more calm and normal. 
 
 That's not to say that things were perfect. I did miss my mom and brother Pau, I was still going to divorce counseling, and I was still a weird kid that did dumb things sometimes. In addition, my mom wanted me to live with her in Spain, so much so that my parents went to court over my custody. 
 
