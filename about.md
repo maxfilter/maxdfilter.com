@@ -1,11 +1,11 @@
 ---
-title: Hi there!
+title: Hi, I'm Max
 layout: post
 location: Blacksburg, VA
 date: 2020-07-09
 ---
 
-I'm Max. Welcome to my little corner of the internet.
+Welcome to my little corner of the internet.
 
 Most of my time is spent figuring out how the world works, building things and hanging around outside or with friends. I also enjoy reading, cooking, recording thoughts in my Field Notes, taking pictures and pretending to be a writer. 
 
